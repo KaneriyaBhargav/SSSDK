@@ -1,0 +1,343 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SimformSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SimformBaseProtocol",
+        "printedName": "SimformBaseProtocol",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "isInitialized",
+            "printedName": "isInitialized",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10SimformSDK0A12BaseProtocolP13isInitializedSbvp",
+            "mangledName": "$s10SimformSDK0A12BaseProtocolP13isInitializedSbvp",
+            "moduleName": "SimformSDK",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10SimformSDK0A12BaseProtocolP13isInitializedSbvg",
+                "mangledName": "$s10SimformSDK0A12BaseProtocolP13isInitializedSbvg",
+                "moduleName": "SimformSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : SimformSDK.SimformBaseProtocol>",
+                "sugared_genericSig": "<Self where Self : SimformSDK.SimformBaseProtocol>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "initialize",
+            "printedName": "initialize()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10SimformSDK0A12BaseProtocolP10initializeyyF",
+            "mangledName": "$s10SimformSDK0A12BaseProtocolP10initializeyyF",
+            "moduleName": "SimformSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : SimformSDK.SimformBaseProtocol>",
+            "sugared_genericSig": "<Self where Self : SimformSDK.SimformBaseProtocol>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:10SimformSDK0A12BaseProtocolP",
+        "mangledName": "$s10SimformSDK0A12BaseProtocolP",
+        "moduleName": "SimformSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SimformSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Simform",
+        "printedName": "Simform",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SimformBaseProtocol",
+                "printedName": "SimformSDK.SimformBaseProtocol",
+                "usr": "s:10SimformSDK0A12BaseProtocolP"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10SimformSDK0A0C6sharedAA0A12BaseProtocol_pvpZ",
+            "mangledName": "$s10SimformSDK0A0C6sharedAA0A12BaseProtocol_pvpZ",
+            "moduleName": "SimformSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SimformBaseProtocol",
+                    "printedName": "SimformSDK.SimformBaseProtocol",
+                    "usr": "s:10SimformSDK0A12BaseProtocolP"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10SimformSDK0A0C6sharedAA0A12BaseProtocol_pvgZ",
+                "mangledName": "$s10SimformSDK0A0C6sharedAA0A12BaseProtocol_pvgZ",
+                "moduleName": "SimformSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SimformBaseProtocol",
+                    "printedName": "SimformSDK.SimformBaseProtocol",
+                    "usr": "s:10SimformSDK0A12BaseProtocolP"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10SimformSDK0A0C6sharedAA0A12BaseProtocol_pvsZ",
+                "mangledName": "$s10SimformSDK0A0C6sharedAA0A12BaseProtocol_pvsZ",
+                "moduleName": "SimformSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10SimformSDK0A0C6sharedAA0A12BaseProtocol_pvMZ",
+                "mangledName": "$s10SimformSDK0A0C6sharedAA0A12BaseProtocol_pvMZ",
+                "moduleName": "SimformSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isInitialized",
+            "printedName": "isInitialized",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10SimformSDK0A0C13isInitializedSbvp",
+            "mangledName": "$s10SimformSDK0A0C13isInitializedSbvp",
+            "moduleName": "SimformSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10SimformSDK0A0C13isInitializedSbvg",
+                "mangledName": "$s10SimformSDK0A0C13isInitializedSbvg",
+                "moduleName": "SimformSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "initialize",
+            "printedName": "initialize()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10SimformSDK0A0C10initializeyyF",
+            "mangledName": "$s10SimformSDK0A0C10initializeyyF",
+            "moduleName": "SimformSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:10SimformSDK0A0C",
+        "mangledName": "$s10SimformSDK0A0C",
+        "moduleName": "SimformSDK",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "SimformBaseProtocol",
+            "printedName": "SimformBaseProtocol",
+            "usr": "s:10SimformSDK0A12BaseProtocolP",
+            "mangledName": "$s10SimformSDK0A12BaseProtocolP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/bhargav\/Desktop\/SS\/SimformSDK\/SimformSDK\/Simform.swift",
+      "kind": "BooleanLiteral",
+      "offset": 519,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/bhargav\/Desktop\/SS\/SimformSDK\/SimformSDK\/Simform.swift",
+      "kind": "BooleanLiteral",
+      "offset": 764,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/bhargav\/Desktop\/SS\/SimformSDK\/SimformSDK\/Simform.swift",
+      "kind": "StringLiteral",
+      "offset": 783,
+      "length": 37,
+      "value": "\"SimformSDK: Initialized Sucessfully\""
+    },
+    {
+      "filePath": "\/Users\/bhargav\/Desktop\/SS\/SimformSDK\/SimformSDK\/Simform.swift",
+      "kind": "StringLiteral",
+      "offset": 933,
+      "length": 43,
+      "value": "\"SimformSDK: Message From Private Function\""
+    }
+  ]
+}

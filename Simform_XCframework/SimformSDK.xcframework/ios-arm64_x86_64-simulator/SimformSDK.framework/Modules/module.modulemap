@@ -1,0 +1,11 @@
+framework module SimformSDK {
+  umbrella header "SimformSDK.h"
+  export *
+
+  module * { export * }
+}
+
+module SimformSDK.Swift {
+  header "SimformSDK-Swift.h"
+  requires objc
+}

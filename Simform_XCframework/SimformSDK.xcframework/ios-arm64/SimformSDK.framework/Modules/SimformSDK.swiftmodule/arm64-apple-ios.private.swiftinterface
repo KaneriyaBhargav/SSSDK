@@ -1,0 +1,22 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
+// swift-module-flags: -target arm64-apple-ios17.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name SimformSDK
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import Foundation
+@_exported import SimformSDK
+import Swift
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public protocol SimformBaseProtocol {
+  var isInitialized: Swift.Bool { get }
+  func initialize()
+}
+@_hasMissingDesignatedInitializers final public class Simform : SimformSDK.SimformBaseProtocol {
+  public static var shared: any SimformSDK.SimformBaseProtocol
+  final public var isInitialized: Swift.Bool {
+    get
+  }
+  final public func initialize()
+  @objc deinit
+}
